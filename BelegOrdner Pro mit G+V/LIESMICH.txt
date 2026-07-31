@@ -1,0 +1,114 @@
+============================================================
+  BelegOrdner Pro
+  Sortier- und Vorbereitungsprogramm fuer Eingangsrechnungen
+============================================================
+
+
+STARTEN
+-------
+Doppelklick auf:
+
+     "BelegOrdner Pro starten.bat"
+
+Das Programm oeffnet sich danach im Browser.
+
+
+ERSTER START
+------------
+1. Links im Menue auf "Einstellungen" klicken
+2. Firma, Inhaber, Bank und IBAN eintragen
+3. Bei "Automatische Buchungs-Erkennung" die eigenen Namen
+   eintragen (fuer Privatentnahmen und Loehne)
+4. Speichern
+
+
+AUSLIEFERUNGSZUSTAND
+--------------------
+Dieser Ordner ist bewusst LEER ausgeliefert:
+keine Rechnungen, keine Kontoauszuege, keine E-Mails,
+keine Firmen- oder Bankdaten.
+
+Alles, was Sie eintragen und ablegen, bleibt auf Ihrem
+eigenen Rechner. Das Programm sendet nichts nach aussen -
+es hat keine Internetverbindung.
+
+
+DATEIEN ABLEGEN
+---------------
+Im Unterordner "Programm" liegen die Ablageordner.
+In jedem steht eine Hinweisdatei, was hineingehoert:
+
+   Rechnungen\       - Ihre Rechnungen als PDF (Unterordner erlaubt)
+   Kontoauszuege\    - Kontoauszug des Monats (CSV, MT940 oder STA)
+   Monatsberichte\   - Ausgabeordner des Programms
+   EMails\           - Kopien der importierten E-Mails
+   Datensicherung\   - hier landen die Monatspakete
+
+Die Hinweisdateien (HIER_....txt) koennen Sie loeschen.
+
+Nach dem Hineinkopieren neuer Rechnungen einmal das
+Programm neu starten - dann wird die Dateiliste erneuert.
+
+E-MAIL-IMPORT
+-------------
+Der Import laeuft NICHT automatisch. Er wird bewusst erst
+gestartet, wenn Sie ihn ausloesen:
+
+   Startseite -> Knopf "E-Mails importieren"
+
+Dann werden PDF-Anhaenge aus Ihrem Outlook- bzw.
+Thunderbird-Postfach als KOPIE uebernommen.
+Die Originale bleiben unveraendert im E-Mail-Programm.
+
+Es wird nur das Postfach gelesen, das auf DIESEM Rechner
+eingerichtet ist.
+
+
+DATENSICHERUNG
+--------------
+Der Knopf "Datensicherung" unten links erzeugt ein
+abgeschlossenes Monatspaket mit:
+
+   - Kopien aller zugeordneten Rechnungen
+   - Kopien der zugehoerigen E-Mails
+   - Kontoauszug
+   - Zuordnungsliste
+   - Aenderungsprotokoll
+   - Pruefsummen (SHA-256) ueber jede Datei
+   - Verfahrensdokumentation
+
+Ablage:  Programm\Datensicherung\<Jahr>\<Jahr-Monat>_Datensicherung.zip
+
+WICHTIG: Der Arbeitsstand wird im Browser gespeichert.
+Beim Wechsel auf einen anderen Computer vorher
+"Datensicherung" druecken und die Datei mitnehmen,
+dort dann "Sicherung laden".
+
+
+PROGRAMM WEITERGEBEN ODER UMZIEHEN
+----------------------------------
+Einfach diesen kompletten Ordner kopieren.
+Das Programm laeuft von jedem Laufwerk und jedem Ordner,
+auch von einem USB-Stick. Es muss nichts installiert werden.
+
+Der Ordner darf auch umbenannt werden.
+
+
+VORAUSSETZUNGEN
+---------------
+- Windows mit PowerShell (auf jedem Windows vorhanden)
+- Ein Browser (Chrome empfohlen)
+- Kein Internet noetig
+- Keine Administratorrechte noetig
+
+Hinweis: Manche Virenschutzprogramme blockieren Skripte auf
+externen Datentraegern. Falls das Programm nicht startet,
+diesen Ordner im Virenschutz als Ausnahme eintragen.
+
+
+HAFTUNG
+-------
+Dieses Programm ist ein Hilfsmittel zur Sortierung von Belegen.
+Es fuehrt keine Buchfuehrung durch und ersetzt keine steuerliche
+Beratung. Fuer die ordnungsgemaesse Aufbewahrung und Verbuchung
+ist der Anwender selbst verantwortlich.

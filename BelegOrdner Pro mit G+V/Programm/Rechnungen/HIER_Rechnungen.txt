@@ -1,0 +1,16 @@
+HIER GEHOEREN IHRE RECHNUNGEN HINEIN
+====================================
+
+Legen Sie in diesem Ordner Ihre Rechnungs-PDFs ab.
+
+Unterordner sind erlaubt, zum Beispiel:
+   Rechnungen\2026\Januar\
+   Rechnungen\Lieferant XY\
+
+Das Programm durchsucht auch alle Unterordner.
+
+WICHTIG: Nach dem Hineinkopieren neuer Dateien einmal
+das Programm neu starten - dann wird die Dateiliste
+neu erstellt und die neuen Rechnungen sind sichtbar.
+
+Diese Hinweisdatei koennen Sie loeschen.

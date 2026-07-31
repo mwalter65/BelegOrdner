@@ -1,0 +1,15 @@
+HIER GEHOEREN IHRE KONTOAUSZUEGE HINEIN
+=======================================
+
+Legen Sie hier die Umsatzdatei Ihrer Bank ab.
+
+Moegliche Formate:
+   .csv    (Umsatzliste aus dem Online-Banking)
+   .mt940  (Standardformat, bieten fast alle Banken an)
+   .sta    (gleiches Format, andere Endung)
+
+Am einfachsten: im Online-Banking den gewuenschten
+Zeitraum waehlen und "Umsaetze exportieren" - dann
+die heruntergeladene Datei hierher kopieren.
+
+Diese Hinweisdatei koennen Sie loeschen.

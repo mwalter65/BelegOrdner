@@ -1,0 +1,15 @@
+E-MAIL-ABLAGE
+=============
+
+Wenn Sie im Programm auf "E-Mails importieren" druecken,
+holt das Programm Rechnungs-PDFs aus Outlook oder
+Thunderbird und legt sie in "Rechnungen" ab.
+
+Zusaetzlich wird hier je eine KOPIE der E-Mail gespeichert
+(.msg-Datei) - das verlangt die GoBD, weil die E-Mail den
+Zugang der Rechnung belegt.
+
+Das Original bleibt in Ihrem E-Mail-Programm.
+Es wird nichts verschoben und nichts geloescht.
+
+Sie muessen hier nichts hineinkopieren.
