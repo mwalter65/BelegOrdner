@@ -1,0 +1,7 @@
+AUSGABEORDNER
+=============
+
+Hier legt das Programm die fertigen Monatsberichte ab,
+die Sie ausdrucken oder an die Buchhaltung geben.
+
+Sie muessen hier nichts hineinkopieren.
